@@ -1,0 +1,10 @@
+1.Create a git repo in your personal GitHub accounts for the assignments and share the link.
+2.Develop a working  .Net Core MVC application using C# implementing the following:
+   a.To the application created by create wizard using MVC template,  add a new controller called – Product.
+   b.Use authorization using Windows or Individual account and implement authorization on a HTTPPOST
+   c.Create a model for Product ( optionally you can create service class of model/entity ).
+   d.Create a view using a strongly typed model displaying the details of Product
+   e.Implement CRUD operation on the Product page – Create/Read/Update/Delete the Product.
+   f.Make use of RenderSection() method at least once on Product detail page.
+   g.Make use of either viewbag/viewdata in the MVC application.
+3.Product details can be stored in a json files or in sql express if installed on your machines.
