@@ -18,10 +18,13 @@ namespace assignment1.Controllers
         {
             _context = context;
         }
+        
 
         // GET: product
         public async Task<IActionResult> Index()
         {
+            ViewBag.message = "Using view bag printing this message....";
+            ViewData["details"] = "Using view data...";
             return View(await _context.product.ToListAsync());
         }
 
@@ -149,5 +152,9 @@ namespace assignment1.Controllers
         {
             return _context.product.Any(e => e.Id == id);
         }
+
+        
+
+       
     }
 }

@@ -8,3 +8,10 @@
    f.Make use of RenderSection() method at least once on Product detail page.
    g.Make use of either viewbag/viewdata in the MVC application.
 3.Product details can be stored in a json files or in sql express if installed on your machines.
+
+
+
+
+
+
+
